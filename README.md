@@ -1,5 +1,5 @@
 # simple-s3s-docker
-[s3s](https://github.com/frozenpandaman/s3s)をdockerで立ち上げるだけ
+Splatoon3の戦績データを[stat.ink](https://stat.ink)に自動でアップロードする[s3s](https://github.com/frozenpandaman/s3s)をdockerで立ち上げるだけ
 
 ## 初回起動時
 1. `docker compose up`
