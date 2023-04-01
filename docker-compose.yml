@@ -1,0 +1,7 @@
+version: "3.9"
+
+services:
+  run:
+    build: .
+    tty: true
+    stdin_open: true
