@@ -2,6 +2,9 @@ version: "3.9"
 
 services:
   run:
+    container_name: simple-s3s-container
     build: .
     tty: true
     stdin_open: true
+    volumes:
+      - ./config.txt:/s3s/config.txt
