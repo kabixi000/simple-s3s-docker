@@ -10,8 +10,8 @@ Splatoon3の戦績データを[stat.ink](https://stat.ink)に自動でアップ�
 5. (取得が成功したらコンテナを終了して2回目以降の手順でバックグラウンド実行に移してもよい)
 
 ## 2回目以降
-1. `docker compose up -d` を起動
-2. データ取得が始まる
+1. `docker compose up -d`
+2. データ取得がバックグラウンドで始まる
 3. (トークンの期限切れ等で止まる事があるので適宜 `docker attach simple-s3s-container` 等で設定してあげる)
 
 ## 動作確認
