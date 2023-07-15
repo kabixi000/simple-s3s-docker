@@ -1,1 +1,0 @@
-docker cp config.txt s3s-docker-run-1:/s3s/config.txt
