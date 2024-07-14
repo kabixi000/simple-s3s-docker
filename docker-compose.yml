@@ -8,3 +8,5 @@ services:
     stdin_open: true
     volumes:
       - ./config.txt:/s3s/config.txt
+    environment:
+      - S3S_FLAGS=${S3S_FLAGS}
