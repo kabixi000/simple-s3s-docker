@@ -18,3 +18,6 @@ Splatoon3の戦績データを[stat.ink](https://stat.ink)に自動でアップ�
 
 ## 動作確認
 - コンテナの様子を確認したいときは `docker logs -f --tail 10 simple-s3s-container`
+
+## 手動でのトークン取得方法
+s3s リポジトリの [wiki](https://github.com/frozenpandaman/s3s/wiki/mitmproxy-instructions) を参照
